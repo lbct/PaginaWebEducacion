@@ -3,6 +3,10 @@
     position: relative;
 }
 
+.contenedor-pregunta {
+    padding: 20px 30px;
+}
+
 input[type=text] { 
     width: 100%; 
 }

@@ -1,5 +1,5 @@
 body{
-    font: 600 14px/24px "Open Sans"
+    font-family: "Open Sans"
 }
 
 .card {
@@ -20,10 +20,6 @@ body{
         margin-top: 100px;
         width: 90%;
     }
-}
- 
-.container {
-    padding: 20px 30px;
 }
 
 .topnav {
