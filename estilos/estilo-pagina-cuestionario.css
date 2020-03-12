@@ -1,33 +1,21 @@
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 50%;
-    margin: auto;
-    margin-top: 100px;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .container {
-    padding: 20px 30px;
-  }
-
 .titulo-cuestionario{
-    margin-left: 25%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    text-align: center;
+    position: relative;
 }
 
 input[type=text] { 
     width: 100%; 
 }
 
+input[type=submit] { 
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
 select { 
     width: 100%; 
 }
+
 textarea { 
     width: 100%; 
     height: 100px;
@@ -38,35 +26,7 @@ textarea {
     font-size: large;
     font-weight: bold;
 }
-
-
-.topnav {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 100;
-    border-top: 0;
-  }
-  
-  .topnav a {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    color: black;
-  }
-  
-  .topnav a:hover {
-    background-color: gray;
-    color: white;
-  }
-  
-  .topnav a.active {
-    background-color: lightgray;
-    color: black;
-  }
+.boton-enviar{
+    width: 50%;
+    margin: auto;
+}
