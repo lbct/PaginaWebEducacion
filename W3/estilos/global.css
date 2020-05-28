@@ -1,0 +1,55 @@
+body, body * {
+    font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+} /* this affects every element in the body and the body itself */
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.contenido-principal {
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+}
+
+@media screen and (max-width: 640px){
+    .contenido-principal {
+        margin: auto;
+        margin-top: 100px;
+        width: 90%;
+    }
+}
+
+.topnav {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: lightgray;
+    color: black;
+}

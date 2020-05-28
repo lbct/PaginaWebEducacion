@@ -1,6 +1,7 @@
-body{
-    font-family: "Open Sans"
-}
+body, body * {
+    font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+} /* this affects every element in the body and the body itself */
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
